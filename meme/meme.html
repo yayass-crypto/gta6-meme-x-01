@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GTA 6 meme — make.fun ghost in Vice City</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px; height: 1080px; overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(180deg, #2b1055 0%, #7597de 0%, #ff7e5f 42%, #feb47b 58%, #ff9a8b 62%, #0e4d64 62%, #0a3d52 100%);
+    position: relative;
+  }
+  /* sunset sun */
+  .sun {
+    position: absolute; left: 390px; top: 150px; width: 300px; height: 300px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #fff3b0 0%, #ffd23f 45%, #ff8c42 100%);
+    box-shadow: 0 0 120px 60px rgba(255, 190, 80, 0.55);
+  }
+  .skyline {
+    position: absolute; left: 0; top: 470px; width: 1080px; height: 200px;
+  }
+  .ocean { position: absolute; left: 0; top: 670px; width: 1080px; height: 130px; background: #0e4d64; }
+  .sand { position: absolute; left: 0; top: 800px; width: 1080px; height: 280px; background: linear-gradient(180deg, #f7d794 0%, #e8b96a 100%); }
+  .headline {
+    position: absolute; left: 0; top: 36px; width: 1080px; text-align: center;
+    font-size: 92px; font-weight: 900; letter-spacing: 1px; color: #ffffff;
+    -webkit-text-stroke: 3px #111111;
+    text-shadow: 0 6px 0 #111111, 0 12px 24px rgba(0,0,0,0.45);
+  }
+  .subhead {
+    position: absolute; left: 0; top: 148px; width: 1080px; text-align: center;
+    font-size: 44px; font-weight: 900; color: #ffe66d;
+    -webkit-text-stroke: 2px #111111;
+    text-shadow: 0 4px 0 #111111;
+  }
+  .ghost-wrap { position: absolute; left: 315px; top: 250px; width: 450px; height: 520px; }
+  .bar-label {
+    position: absolute; left: 0; top: 792px; width: 1080px; text-align: center;
+    font-size: 46px; font-weight: 900; color: #ffffff;
+    -webkit-text-stroke: 2px #111111;
+    text-shadow: 0 4px 0 #111111;
+  }
+  .bar {
+    position: absolute; left: 140px; top: 856px; width: 800px; height: 52px;
+    background: #111111; border: 6px solid #111111; border-radius: 30px; overflow: hidden;
+  }
+  .bar-fill {
+    width: 99%; height: 100%;
+    background: repeating-linear-gradient(-45deg, #ff2ea6 0 28px, #ff7ac8 28px 56px);
+  }
+  .bar-pct {
+    position: absolute; left: 0; top: 916px; width: 1080px; text-align: center;
+    font-size: 40px; font-weight: 900; color: #ffffff;
+    -webkit-text-stroke: 2px #111111; text-shadow: 0 4px 0 #111111;
+  }
+  .punch {
+    position: absolute; left: 0; top: 962px; width: 1080px; text-align: center;
+    font-size: 54px; font-weight: 900; color: #ffffff;
+    -webkit-text-stroke: 2px #111111; text-shadow: 0 4px 0 #111111;
+  }
+  .brand {
+    position: absolute; left: 0; top: 1018px; width: 1080px; text-align: center;
+    font-size: 48px; font-weight: 900; color: #ff2ea6;
+    -webkit-text-stroke: 1.5px #111111; text-shadow: 0 3px 0 #111111;
+    letter-spacing: 1px;
+  }
+</style>
+</head>
+<body>
+  <div class="sun"></div>
+  <svg class="skyline" viewBox="0 0 1080 200" preserveAspectRatio="none">
+    <!-- Vice City skyline silhouettes -->
+    <g fill="#1d0b38">
+      <rect x="0" y="90" width="90" height="110"/>
+      <rect x="100" y="50" width="70" height="150"/>
+      <rect x="180" y="110" width="110" height="90"/>
+      <rect x="300" y="30" width="60" height="170"/>
+      <rect x="370" y="80" width="90" height="120"/>
+      <rect x="470" y="110" width="120" height="90"/>
+      <rect x="600" y="60" width="70" height="140"/>
+      <rect x="680" y="100" width="100" height="100"/>
+      <rect x="790" y="40" width="60" height="160"/>
+      <rect x="860" y="90" width="90" height="110"/>
+      <rect x="960" y="60" width="120" height="140"/>
+    </g>
+    <g fill="#ffd23f">
+      <rect x="120" y="70" width="10" height="12"/><rect x="140" y="95" width="10" height="12"/>
+      <rect x="320" y="55" width="10" height="12"/><rect x="335" y="90" width="10" height="12"/>
+      <rect x="810" y="65" width="10" height="12"/><rect x="825" y="100" width="10" height="12"/>
+      <rect x="985" y="85" width="10" height="12"/><rect x="1010" y="110" width="10" height="12"/>
+    </g>
+    <!-- palm trees -->
+    <g stroke="#12081f" stroke-width="10" stroke-linecap="round" fill="none">
+      <path d="M70 200 Q75 140 70 105"/>
+      <path d="M70 105 Q30 85 10 95 M70 105 Q110 80 130 95 M70 105 Q65 65 45 55 M70 105 Q85 60 105 60 M70 105 Q70 70 70 50"/>
+      <path d="M1010 200 Q1005 140 1010 105"/>
+      <path d="M1010 105 Q970 85 950 95 M1010 105 Q1050 80 1070 95 M1010 105 Q1005 65 985 55 M1010 105 Q1025 60 1045 60 M1010 105 Q1010 70 1010 50"/>
+    </g>
+  </svg>
+  <div class="ocean"></div>
+  <div class="sand"></div>
+
+  <div class="headline">13 YEARS LATER…</div>
+  <div class="subhead">VICE CITY, BABY</div>
+
+  <!-- the make.fun ghost, drawn from the RULES description:
+       white ghost, thick black outline, two black four-pointed sparkle eyes,
+       round little hand, holding a magenta coin with a white star -->
+  <svg class="ghost-wrap" viewBox="0 0 450 520">
+    <!-- magenta disc behind the coin -->
+    <circle cx="398" cy="335" r="72" fill="#ff2ea6" stroke="#111111" stroke-width="10"/>
+    <!-- ghost body -->
+    <path d="M225 30
+             C130 30 78 110 78 205
+             L78 430
+             Q105 395 132 430
+             Q159 465 186 430
+             Q213 395 240 430
+             Q267 465 294 430
+             Q321 395 348 430
+             Q372 452 372 430
+             L372 205
+             C372 110 320 30 225 30 Z"
+          fill="#ffffff" stroke="#111111" stroke-width="14" stroke-linejoin="round"/>
+    <!-- sparkle eyes: black four-pointed stars -->
+    <path d="M168 185 L178 208 L201 218 L178 228 L168 251 L158 228 L135 218 L158 208 Z" fill="#111111"/>
+    <path d="M282 185 L292 208 L315 218 L292 228 L282 251 L272 228 L249 218 L272 208 Z" fill="#111111"/>
+    <!-- blush -->
+    <circle cx="140" cy="255" r="14" fill="#ffb3d9"/>
+    <circle cx="310" cy="255" r="14" fill="#ffb3d9"/>
+    <!-- smile -->
+    <path d="M200 265 Q225 285 250 265" fill="none" stroke="#111111" stroke-width="9" stroke-linecap="round"/>
+    <!-- round little hand reaching out to hold the coin -->
+    <circle cx="368" cy="368" r="26" fill="#ffffff" stroke="#111111" stroke-width="10"/>
+    <!-- magenta coin with white star, held in the hand -->
+    <circle cx="398" cy="335" r="46" fill="#ff2ea6" stroke="#111111" stroke-width="8"/>
+    <path d="M398 305 L406 325 L427 325 L410 338 L416 359 L398 347 L380 359 L386 338 L369 325 L390 325 Z" fill="#ffffff" stroke="#111111" stroke-width="4" stroke-linejoin="round"/>
+    <!-- tiny pink bandana -->
+    <path d="M120 120 Q225 70 330 120 L315 150 Q225 110 135 150 Z" fill="#ff2ea6" stroke="#111111" stroke-width="8" stroke-linejoin="round"/>
+    <circle cx="225" cy="118" r="12" fill="#ff2ea6" stroke="#111111" stroke-width="6"/>
+  </svg>
+
+  <div class="bar-label">GTA 6 — DOWNLOADING…</div>
+  <div class="bar"><div class="bar-fill"></div></div>
+  <div class="bar-pct">99% — JUST ONE MORE YEAR</div>
+  <div class="punch">CALLED IN SICK. WORTH IT.</div>
+  <div class="brand">make.fun</div>
+</body>
+</html>
